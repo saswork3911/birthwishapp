@@ -61,7 +61,7 @@ const processBirthdays = async () => {
 };
 
 // cron.schedule("20 6 * * *", processBirthdays); //check it carefully 
-cron.schedule("15 9 * * *", processBirthdays,{
+cron.schedule("22 9 * * *", processBirthdays,{
   timezone: "Asia/Kolkata"
 }); //check it carefully 
 
